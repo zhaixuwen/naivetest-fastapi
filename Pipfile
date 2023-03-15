@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.88.0"
+aioredis = "==2.0.1"
+deepdiff = "==6.2.2"
+requests = "==2.28.1"
+apscheduler = "*"
+redis = "*"
+loguru = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
